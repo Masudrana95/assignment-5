@@ -35,4 +35,14 @@ document.getElementById('btn-aid-donate')
     document.getElementById('account-balance').innerText = totalBalance;
     document.getElementById('aiddonAm').innerText = newBalance;
     
+    alert("Successfully Donate");
 })
+
+document.getElementById('show-Donate')
+.addEventListener('click', function(){
+    showSectionById('box-section-show');
+});
+document.getElementById('show-transaction-history')
+.addEventListener('click', function(){
+    showSectionById('show-transaction-history');
+});

@@ -19,3 +19,10 @@ function getTextFieldValueById(id){
     return textNumber;
 
 }
+
+function showSectionById(id){
+    document.getElementById('box-section-show').classList.add('hidden');
+    // document.getElementById('show-transaction-history').classList.add('hidden');
+
+    document.getElementById(id).classList.remove('hidden');
+}

@@ -22,7 +22,7 @@ function getTextFieldValueById(id){
 
 function showSectionById(id){
     document.getElementById('box-section-show').classList.add('hidden');
-    // document.getElementById('show-transaction-history').classList.add('hidden');
+    document.getElementById('transaction').classList.add('hidden');
 
     document.getElementById(id).classList.remove('hidden');
 }

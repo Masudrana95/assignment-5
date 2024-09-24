@@ -8,6 +8,15 @@ document.getElementById('btn-donate')
     const totalBalance = addMoneyNumber - addMoney;
     document.getElementById('account-balance').innerText = totalBalance;
     document.getElementById('donAm').innerText = newBalance;
+
+    const p = document.createElement('p');
+    p.innerText = `Donate ${addMoney} tk for Flood at Noakhali Bangladesh`;
+    
+    console.log(p);
+
+    document.getElementById('show-transaction1').appendChild(p);
+
+    alert("Successfully Donate");
     
 })
 
@@ -21,6 +30,15 @@ document.getElementById('btn-feni-donate')
     const totalBalance = addMoneyNumber - addMoney;
     document.getElementById('account-balance').innerText = totalBalance;
     document.getElementById('fenidonAm').innerText = newBalance;
+
+    const p = document.createElement('p');
+    p.innerText = `Donate ${addMoney} tk for Flood at Fani Bangladesh`;
+    
+    console.log(p);
+
+    document.getElementById('show-transaction2').appendChild(p);
+
+    alert("Successfully Donate");
     
 })
 
@@ -34,6 +52,13 @@ document.getElementById('btn-aid-donate')
     const totalBalance = addMoneyNumber - addMoney;
     document.getElementById('account-balance').innerText = totalBalance;
     document.getElementById('aiddonAm').innerText = newBalance;
+
+    const p = document.createElement('p');
+    p.innerText = `Donate ${addMoney} tk for Flood at aid Bangladesh`;
+    
+    console.log(p);
+
+    document.getElementById('show-transaction3').appendChild(p);
     
     alert("Successfully Donate");
 })
@@ -42,7 +67,9 @@ document.getElementById('show-Donate')
 .addEventListener('click', function(){
     showSectionById('box-section-show');
 });
+
 document.getElementById('show-transaction-history')
 .addEventListener('click', function(){
-    showSectionById('show-transaction-history');
+    showSectionById('transaction');
 });
+

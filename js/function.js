@@ -1,11 +1,4 @@
 
-// function getInputeFieldValueById(){
-//     // console.log('this is a function file');
-//     const addMoney = document.getElementById('input-donate').value;
-//     return addMoney;
-
-// }
-
 function getInputeFieldValueById(id){
     // console.log('this is a function file');
     const addMoney = document.getElementById(id).value;
